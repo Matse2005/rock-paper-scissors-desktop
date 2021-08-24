@@ -1,8 +1,8 @@
 {
-  "name": "program-learn",
-  "productName": "program-learn",
+  "name": "rock-paper-scissors",
+  "productName": "Rock Paper Scissors",
+  "description": "Rock Paper Scissors",
   "version": "1.0.0",
-  "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -19,12 +19,12 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "program_learn"
+            "name": "RockPaperScissors",
+            "iconUrl": "https://files.m-vh.eu/rockpaperscissors/icon-rock.png"
           }
         },
         {
